@@ -644,20 +644,6 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json / jsonresume (loading assets/json/resume.json into site.data.resume)
+# intentionally disabled: the /cv/ page falls back to _data/cv.yml when
+# site.data.resume is unset (see _layouts/cv.liquid).
