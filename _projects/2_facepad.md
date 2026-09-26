@@ -10,4 +10,4 @@ related_publications: true
 
 Face presentation attack detection (face anti-spoofing) systems need to be both accurate under real-world conditions and cheap enough to run on constrained hardware. This project develops spatio-temporal deep learning frameworks with squeeze-and-excitation and Bahdanau attention mechanisms for robust detection, and multi-modal architectures that augment RGB input with synthetic depth modalities, achieving state-of-the-art performance with near-zero error rates on benchmark datasets.
 
-A key thread is knowledge distillation: transferring what a heavier, depth-aware teacher model learns into a lightweight student model, so the resulting system stays deployable in resource-constrained and real-time settings {% cite jabbar2025knowledge %}.
+A key thread is knowledge distillation: transferring what a heavier, depth-aware teacher model learns into a lightweight student model, so the resulting system stays deployable in resource-constrained and real-time settings {% cite jabbar2025knowledge %}. Related work has pushed this further toward IoT and edge deployment {% cite siddique2026repghostfas %}.
