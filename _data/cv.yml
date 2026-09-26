@@ -1,0 +1,164 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Muhammad Shahid Jabbar, PhD
+    - name: Current Position
+      value: Post-Doctoral Research Fellow, SDAIA-KFUPM Joint Research Center for AI
+    - name: Location
+      value: Dhahran, Saudi Arabia
+    - name: Languages
+      value: English (Full Professional), Urdu (Native), Korean (Beginner), Arabic (Beginner)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Engineering (Computer Engineering)
+      institution: Sungkyunkwan University, Suwon, South Korea
+      year: 2016 - 2022
+      description:
+        - "MS-leading-to-PhD program, Electrical and Computer Engineering Department. CGPA 4.14/4.5."
+        - "Thesis: Accessible and Scalable Visual-Art Appreciation Methods for Visually Impaired People."
+        - "Coursework: Image Processing, Neural Networks, Machine Learning, AI-Based Simulation, Advanced AI, HCI Design, Estimation Theory, Advanced Computer Networks, Advanced Digital Communications."
+    - title: B.E. in Electronics Engineering
+      institution: Dawood University of Engineering and Technology, Karachi, Pakistan
+      year: 2009 - 2013
+      description:
+        - "CGPA 3.59/4."
+        - "Final Year Project: Disabled Patients Facilitation System."
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Post-Doctoral Fellow, SDAIA-KFUPM Joint Research Center for AI
+      institution: King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia
+      year: 2024 - Present
+      description:
+        - Conducting research in computer vision and medical imaging, focusing on inverse problems and efficient deep learning, including diffusion-based models for image reconstruction, enhancement, and downstream vision tasks.
+        - Investigating resource-efficient and scalable methodologies for applying deep generative models in real-world and medical imaging applications.
+        - Co-supervising MS and PhD students in AI research in collaboration with faculty.
+        - Teaching undergraduate computing courses and delivering hands-on training in Data Science, Machine Learning, and Deep Learning, including workshops and intensive crash courses.
+        - Contributing to the organization of research activities and academic events within the SDAIA-KFUPM AI research center.
+    - title: Senior AI Engineer, AI Engineering Division
+      institution: Radisen Co. Ltd., Seoul, South Korea
+      year: 2022 - 2023
+      description:
+        - Developed and optimized AI-based digital radiography solutions for medical imaging applications.
+        - Developed weakly- and semi-supervised deep learning algorithms for triage of abnormalities and pathological findings.
+    - title: Researcher, H-Lab
+      institution: Sungkyunkwan University, Suwon, South Korea
+      year: 2016 - 2022
+      description:
+        - Developed LSTM-based pedestrian dead reckoning for indoor positioning, achieving a state-of-the-art 0.78 m mean error without external infrastructure.
+        - Designed a sensor fusion and fingerprinting framework improving localization accuracy by 87%, plus a BLE RSSI-based localization technique with 89% accuracy.
+        - Proposed an STFT+CNN-based islanding detection method for multi-DG systems achieving 98.76% accuracy.
+        - Developed a multi-sensory reconfigurable assistive platform achieving 99.17% identification accuracy, validated through user studies (SUS, NASA-TLX).
+    - title: Researcher, Media System Lab
+      institution: Sungkyunkwan University, Suwon, South Korea
+      year: 2021 - 2022
+      description:
+        - Developed a fine-grained, holistic textual-visual multi-modal representation learning method using foundation model transformers, improving mean retrieval ranking by 47% over a CLIP zero-shot baseline.
+        - Developed neural attention models for automating expert annotation and ranking tasks in multi-modal information retrieval.
+    - title: Teaching Assistant
+      institution: Sungkyunkwan University, Suwon, South Korea
+      year: 2019
+      description:
+        - "Courses: Electrical and Electronics Programming, Basics of Programming in C."
+        - Taught and supervised practical programming sessions; graded assignments and exams.
+    - title: Engineer, Multimedia and Broadband Operations
+      institution: Pakistan Telecommunication Company Ltd., Multan, Pakistan
+      year: 2013 - 2016
+      description:
+        - Worked on broadband services and access network optimization and rehabilitation projects.
+        - Conducted MSAG, NGN, DSLAM, and ONU surveys, development, operation, and maintenance.
+        - Liaised with Huawei, ZTE, and Alcatel representatives for network expansion and system-level issue resolution.
+
+- title: Selected Funded Research Projects
+  type: time_table
+  contents:
+    - title: Physics-Informed Data Preparation and Efficient Diffusion Modelling for High-Fidelity Medical Imaging
+      institution: SDAIA-KFUPM Joint Research Center for AI
+      year: Ongoing
+      description:
+        - Developing physics-guided diffusion architectures incorporating imaging operators (e.g., PSF, attenuation, noise models) for improved reconstruction fidelity and robustness.
+        - Designing computationally efficient diffusion models using few-step sampling, lightweight backbones, knowledge distillation, and quantization for real-time and edge deployment.
+    - title: Spatio-Temporal Deep Learning for Robust and Efficient Face Presentation Attack Detection
+      institution: SDAIA-KFUPM Joint Research Center for AI
+      year: Ongoing
+      description:
+        - Developed spatio-temporal deep learning frameworks with squeeze-and-excitation and Bahdanau attention mechanisms for robust face anti-spoofing under real-world conditions.
+        - Proposed multi-modal architectures augmenting RGB with synthetic depth modalities, achieving state-of-the-art performance with near-zero error rates on benchmark datasets.
+    - title: "Provoking LLMs by LLMs: A Red Team Framework for Proactive Detection of Harmful Content"
+      institution: SDAIA-KFUPM Joint Research Center for AI
+      year: Completed
+      description:
+        - Investigated red teaming strategies for LLMs to proactively identify vulnerabilities and harmful behaviors, and contributed to evaluation frameworks for robustness, safety, and trustworthiness.
+    - title: Development of Non-Visual Information Transmission Interfaces for the Blind and Visually Impaired
+      institution: Sungkyunkwan University
+      year: Completed
+      description:
+        - Developed a reconfigurable tactile platform as an assistive device for non-visual information transmission.
+        - Developed the AI-Ekphrasis framework using transformer-based foundation models for multi-modal image and fine-grained text retrieval.
+    - title: Development of Robustness and Precision Improvement Technologies in Complex Indoor Location Estimation
+      institution: Sungkyunkwan University
+      year: Completed
+      description:
+        - Developed and tested machine and deep learning-based solutions for robust indoor positioning and navigation, including an LSTM-based heading distance/direction estimator with 0.782 m mean error.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Best Paper Award
+      institution: 13th International Conference on Machine Vision (SPIE)
+      year: 2021
+    - title: Best Paper Award
+      institution: 6th International Symposium on Advanced and Applied Convergence (ISAAC)
+      year: 2018
+    - title: Best Paper Award
+      institution: 3rd International Workshop on Convergence Information Technology (IWCIT)
+      year: 2017
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Computer Vision and Medical Image Analysis
+      items:
+        - Medical image segmentation and reconstruction
+        - Face presentation attack detection (anti-spoofing)
+    - title: Efficient Deep Learning
+      items:
+        - Lightweight models and knowledge distillation
+        - Diffusion models and few-step sampling
+    - title: Inverse Problems and Image Reconstruction
+      items:
+        - Physics-guided/physics-informed generative modelling
+    - title: Multimodal and Transformer-based Learning
+      items:
+        - Vision-language retrieval and foundation models
+
+- title: Teaching Interests
+  type: list
+  contents:
+    - Computer Vision
+    - Machine Learning
+    - Artificial Intelligence
+    - Deep Learning
+    - Natural Language Processing
+    - Computer Networks
+    - Digital Logic Design
+    - Advanced Digital Communications
+    - Object-Oriented Programming, Python, C/C++
+    - Data Science, Data Structures and Algorithms
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python, MATLAB, C++
+    - title: Frameworks & Libraries
+      items:
+        - PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas
+    - title: Tools & Platforms
+      items:
+        - Linux, Git, Docker, Kubernetes
